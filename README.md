@@ -54,3 +54,35 @@ If using the TACC-hosted Jupyter server:
 2. Connect via your TACC credential token  
 3. Upload or copy the notebook into your workspace  
 4. Run all
+   
+The notebook expects the following file structure:
+data/
+adult.csv
+Project03.ipynb
+
+
+`adult.csv` is automatically generated from the provided `.data` and `.test` files in the notebook.
+
+---
+
+## 📈 Results Summary
+The project compares performance across models.  
+Typical outcomes (varies slightly with random seed):
+
+- RF Baseline: ~0.85 accuracy  
+- RF Tuned: ~0.855 accuracy  
+- XGBoost Baseline: ~0.86 accuracy (if available)  
+- Neural Network: ~0.84–0.85 accuracy
+
+Final model rankings are shown in the notebook's results table.
+
+---
+
+## 🧪 Reproducibility
+- All random seeds set via `random_state`  
+- Preprocessing handled consistently inside scikit-learn `Pipeline`  
+- Data splits fixed using `train_test_split(test_size=0.2, random_state=...)`
+
+---
+
+
