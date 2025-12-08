@@ -1,6 +1,6 @@
 # COE 379L – Project 03  
 ### Predicting Income Using Classical ML Models, XGBoost, and a Neural Network  
-**Author:** Jesse Oh  
+**Author:** Nakul Mody and Jesse Oh  
 **Course:** COE 379L – Elements of Data Science & Machine Learning  
 **Instructor:** Prof. Stubbs
 
