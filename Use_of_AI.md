@@ -10,7 +10,7 @@ I referenced ChatGPT during the project **only for synthesizing/loading the Adul
 
 All other code in `Project03.ipynb` — including preprocessing, model implementations, evaluation, hyperparameter tuning, neural network training, and feature importance analysis — was written entirely by me.
 
-I also used ChatGPT **to help draft this Use_of_AI.md file** and **portions of the README**, which is explicitly allowed under the course rules. No AI-generated content was used in the written report.
+I also used ChatGPT **to help draft this Use_of_AI.md file** and **portions of the README**. No AI-generated content was used in the written report.
 
 ---
 
