@@ -4,8 +4,8 @@
 
 ---
 
-## 📌 Project Overview
-This project explores an open-ended ML task using the **UCI Adult Income dataset**, where the goal is to predict whether an individual's income exceeds $50,000 per year.  
+## Project Overview
+This project explores an open-ended ML task using the **UCI Adult Income dataset** (http://archive.ics.uci.edu/dataset/2/adult), where the goal is to predict whether an individual's income exceeds $50,000 per year.  
 The project compares multiple machine learning approaches:
 
 - Baseline Random Forest using scikit-learn  
@@ -24,7 +24,7 @@ The notebook includes:
 
 ---
 
-## 📂 Repository Contents
+## Repository Contents
 
 | File | Description |
 |------|-------------|
@@ -35,7 +35,7 @@ The notebook includes:
 
 ---
 
-## 📊 Methods & Technologies Used
+## Methods & Technologies Used
 - **Python**, **scikit-learn**, **pandas**, **numpy**
 - **RandomForestClassifier**, **GridSearchCV**
 - **XGBoost** (if installed)
@@ -45,7 +45,7 @@ The notebook includes:
 
 ---
 
-## ▶️ How to Run the Notebook
+## How to Run the Notebook
 If using the TACC-hosted Jupyter server:
 
 1. Start the Docker Jupyter container  
@@ -63,7 +63,7 @@ Project03.ipynb
 
 ---
 
-## 📈 Results Summary
+## Results Summary
 The project compares performance across models.  
 Typical outcomes (varies slightly with random seed):
 
@@ -76,7 +76,7 @@ Final model rankings are shown in the notebook's results table.
 
 ---
 
-## 🧪 Reproducibility
+## Reproducibility
 - All random seeds set via `random_state`  
 - Preprocessing handled consistently inside scikit-learn `Pipeline`  
 - Data splits fixed using `train_test_split(test_size=0.2, random_state=...)`
